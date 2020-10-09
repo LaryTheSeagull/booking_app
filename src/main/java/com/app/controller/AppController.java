@@ -13,4 +13,19 @@ public class AppController {
 		model.addAttribute("name", name);
 		return "greeting";
 	}
+
+	@GetMapping("/login")
+	public String login(Model model) {
+		return "login";
+	}
+
+	@PostMapping("/login") 
+	public String auth(Model model) {
+		return "login";
+	}
+
+	@GetMapping("/error")
+	public String error(Model model) {
+
+	}
 }
