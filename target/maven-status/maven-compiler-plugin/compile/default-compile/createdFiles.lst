@@ -1,4 +1,5 @@
 com\app\controller\AppInit.class
+com\app\controller\ControllerSecurityConfig.class
 main\java\com\app\modules\user\Client.class
 com\app\controller\AppController.class
 com\app\modules\user\Admin.class
